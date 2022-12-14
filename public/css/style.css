@@ -21156,7 +21156,7 @@ textarea.form-control-lg {
   color: #EFA69B !important;
 }
 .nav-link:hover:after {
-  content: "\f110";
+  content: "/f111";
   position: absolute;
   top: 30px;
   right: 20px;
