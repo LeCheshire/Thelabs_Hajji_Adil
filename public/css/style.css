@@ -21198,13 +21198,16 @@ textarea.form-control-lg {
   }
 }
 .fill {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border: 1px solid black;
   background-color: transparent;
   border-radius: 50%;
   position: relative;
-  color: none;
+}
+.fill:hover {
+  color: white !important;
+  border: none !important;
 }
 .fill::after {
   content: " ";
@@ -21221,8 +21224,38 @@ textarea.form-control-lg {
 .fill:hover::after {
   top: 0px;
   left: 0px;
-  border-color: white;
-  color: white;
+}
+
+.fillcarre {
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 40px;
+  position: relative;
+}
+.fillcarre:hover {
+  color: white !important;
+  border: none !important;
+}
+.fillcarre::after {
+  content: " ";
+  color: white !important;
+  border: none !important;
+  background-color: #7DE2EC;
+  border-radius: 40px;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 3px;
+  left: 3px;
+  transition: 0.2s;
+}
+.fillcarre:hover::after {
+  top: 0px;
+  left: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
