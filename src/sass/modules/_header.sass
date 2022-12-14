@@ -2,18 +2,38 @@
     color: #42428D !important
     position: relative
     text-decoration: none
-    &:after
-    content: "\f110"
     &:hover
         color: #EFA69B !important
-        &:after
-            content: "/f111"
-            position: absolute
-            top: 30px
-            right: 20px
-            transition: 1s ease-in !important
-            color: #EFA69B !important
 .dropdown-item
     color: #42428D
     &:hover
         color: #EFA69B
+.bouleicone
+    opacity: 0
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    position: absolute
+    background-color: #EFA69B
+    bottom: 0
+    right: 35%
+.boulenav
+    position: relative
+    &:hover
+        .bouleicone
+            animation: animenav 1s forwards
+
+@keyframes animenav
+    0%
+        opacity: 0.1
+        transition: all 0.1s
+        bottom: -10%
+    50% 
+        opacity: 0.5
+        transition: all 0.1s
+        bottom: -15%
+    100% 
+        opacity: 1
+        transition: all 0.1s
+        bottom: -20%
+
