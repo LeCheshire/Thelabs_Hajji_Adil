@@ -28,12 +28,36 @@
         opacity: 1
         transition: all 0.1s
         bottom: -5%
-    50% 
+    50%
         opacity: 1
         transition: all 0.1s
         bottom: -15%
-    100% 
+    100%
         opacity: 1
         transition: all 0.1s
         bottom: -20%
 
+.fill
+    width: 30px
+    height: 30px
+    border: 1px solid black
+    background-color: transparent
+    border-radius: 50%
+    position: relative
+    color: none
+    &::after
+        content: " "
+        background-color: #FF9A8C
+        border-radius: 50%
+        z-index: -1
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 3px
+        left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
+        border-color: white
+        color: white
