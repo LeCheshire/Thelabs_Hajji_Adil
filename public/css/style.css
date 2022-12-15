@@ -21146,6 +21146,87 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .bouleicone {
+    display: none !important;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fill {
+    margin-top: 10px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .fillcarre {
+    margin-top: 10px;
+    margin-left: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .bouleicone {
+    display: none !important;
+  }
+  .nav-link {
+    font-size: 30px;
+    display: flex;
+    margin-left: 160px;
+    align-items: center;
+  }
+  .dropdown-item {
+    font-size: 30px;
+  }
+  .fill {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .fillcarre {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  .bouleicone {
+    display: none !important;
+  }
+  .nav-link {
+    font-size: 30px;
+    display: flex;
+    margin-left: 140px;
+    align-items: center;
+  }
+  .dropdown-item {
+    font-size: 30px;
+  }
+  .fill {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .fillcarre {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+}
 .nav-link {
   color: #42428D !important;
   position: relative;
@@ -21200,7 +21281,7 @@ textarea.form-control-lg {
 .fill {
   width: 40px;
   height: 40px;
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: transparent;
   border-radius: 50%;
   position: relative;
@@ -21230,7 +21311,7 @@ textarea.form-control-lg {
   font-size: 15px;
   width: 100px;
   height: 40px;
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: transparent;
   border-radius: 40px;
   position: relative;
