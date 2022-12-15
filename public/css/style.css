@@ -21170,24 +21170,6 @@ textarea.form-control-lg {
     justify-content: center;
     align-items: center;
   }
-  .container {
-    max-width: 70% !important;
-    margin-right: 150px !important;
-  }
-  .container div div {
-    display: flex;
-    flex-direction: column;
-  }
-  .container div div h1, .container div div .h1 {
-    font-size: 40px !important;
-  }
-  .container div div .borderimg {
-    width: 80%;
-    display: block !important;
-  }
-  .fillcarre_section1 {
-    margin-left: 140px;
-  }
 }
 @media (min-width: 425px) and (max-width: 767px) {
   .bouleicone {
@@ -21216,6 +21198,56 @@ textarea.form-control-lg {
     margin-top: 10px;
     margin-left: 150px;
   }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  .bouleicone {
+    display: none !important;
+  }
+  .nav-link {
+    font-size: 30px;
+    display: flex;
+    margin-left: 140px;
+    align-items: center;
+  }
+  .dropdown-item {
+    font-size: 30px;
+  }
+  .fill {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .fillcarre {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 70% !important;
+    margin-right: 150px !important;
+  }
+  .container div div {
+    display: flex;
+    flex-direction: column;
+  }
+  .container div div h1, .container div div .h1 {
+    font-size: 40px !important;
+  }
+  .container div div .borderimg {
+    width: 80%;
+    display: block !important;
+  }
+  .fillcarre_section1 {
+    margin-left: 140px;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
   .section1 {
     height: 500px;
   }
@@ -21256,32 +21288,6 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 375px) and (max-width: 424px) {
-  .bouleicone {
-    display: none !important;
-  }
-  .nav-link {
-    font-size: 30px;
-    display: flex;
-    margin-left: 140px;
-    align-items: center;
-  }
-  .dropdown-item {
-    font-size: 30px;
-  }
-  .fill {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 160px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .fillcarre {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 130px;
-  }
   .section1 {
     height: 500px;
   }
@@ -21329,12 +21335,14 @@ textarea.form-control-lg {
 .nav-link:hover {
   color: #EFA69B !important;
 }
+
 .dropdown-item {
   color: #42428D;
 }
 .dropdown-item:hover {
   color: #EFA69B;
 }
+
 .bouleicone {
   opacity: 0;
   width: 10px;
@@ -21398,6 +21406,7 @@ textarea.form-control-lg {
   top: 0px;
   left: 0px;
 }
+
 .fillcarre {
   font-size: 15px;
   width: 100px;
@@ -21429,10 +21438,12 @@ textarea.form-control-lg {
   top: 0px;
   left: 0px;
 }
+
 .section1 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .container {
   max-width: 60%;
 }
