@@ -1,28 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-<link rel="stylesheet" href="./public/css/style.css">
-<!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./public/css/style.css">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
 
-<title>Document</title>
+    <title>Project</title>
 
-<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-<style>
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-</style>
 </head>
+
 <body>
     <header>
-        <nav>
-            
+        <!-- Navbar-->
+        <nav class="navbar fixed-top bg-white navbar-expand-lg">
+            <div class="container-fluid">
+            <img class="navbar-brand" src="./public/images/logo/logo.png" alt="logo molengeek" width="50px"><h3 class="mt-2">Molengeek</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-lg-5">
+                            <a class="nav-link boulenav" aria-current="page" href="#">Home
+                                <div class="bouleicone d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item me-lg-5 dropdown">
+                            <a class="nav-link boulenav" href="#" role="button" data-bs-toggle="dropdown">Services<i class="fa-solid fa-caret-down"></i>
+                                <div class="bouleicone d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                                <li><a class="dropdown-item" href="#">Computer Vision</a></li>
+                                <li><a class="dropdown-item" href="#">Internet Of Things</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-lg-5">
+                            <a class="nav-link text-dark boulenav" href="#">About
+                                <div class="bouleicone d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark boulenav">Help
+                                <div class="bouleicone d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="fill me-2"><i class="fa-brands fa-facebook-f"></i></button>
+                        <button class="fill me-5"><i class="fa-brands fa-twitter"></i></button>
+                        <button class="fillcarre me-5">Free Quote</button>
+                    </div>
+                </div>
+            </div>
         </nav>
+        <!-- Navbar -->
     </header>
     <main>
         <section class="section1">
-
+            
         </section>
         <section class="section2">
 
@@ -38,10 +87,8 @@
         </section>
     </main>
     <footer>
-        <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="#">Your Name Here</a>.
-        </p>
+
     </footer>
 </body>
+<script src='./node_modules/bootstrap/dist/js/bootstrap.bundle.js'></script>
 </html>

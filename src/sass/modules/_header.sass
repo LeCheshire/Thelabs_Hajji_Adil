@@ -1,0 +1,90 @@
+.nav-link
+    color: #42428D !important
+    position: relative
+    text-decoration: none
+    &:hover
+        color: #EFA69B !important
+.dropdown-item
+    color: #42428D
+    &:hover
+        color: #EFA69B
+.bouleicone
+    opacity: 0
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    position: absolute
+    background-color: #EFA69B
+    bottom: 0
+    right: 35%
+.boulenav
+    position: relative
+    &:hover
+        .bouleicone
+            animation: animenav 1s forwards
+
+@keyframes animenav
+    0%
+        opacity: 1
+        transition: all 0.1s
+        bottom: -5%
+    50%
+        opacity: 1
+        transition: all 0.1s
+        bottom: -15%
+    100%
+        opacity: 1
+        transition: all 0.1s
+        bottom: -20%
+
+.fill
+    width: 40px
+    height: 40px
+    border: 2px solid black
+    background-color: transparent
+    border-radius: 50%
+    position: relative
+    &:hover
+        color: white !important
+        border: none !important
+    &::after
+        content: " "
+        background-color: #FF9A8C
+        border-radius: 50%
+        z-index: -1
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 3px
+        left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
+.fillcarre
+    font-size: 15px
+    width: 100px
+    height: 40px
+    border: 2px solid black
+    background-color: transparent
+    border-radius: 40px
+    position: relative
+    &:hover
+        color: white !important
+        border: none !important
+    &::after
+        content: " "
+        color: white !important
+        border: none !important
+        background-color: #7DE2EC
+        border-radius: 40px
+        z-index: -1
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 3px
+        left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
