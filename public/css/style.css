@@ -21517,15 +21517,43 @@ textarea.form-control-lg {
   margin: auto;
 }
 
-.card_section2 {
+.card_section2_lamp {
   font-size: 20px;
   border-radius: 10px;
   height: 300px;
 }
-.card_section2:hover {
+.card_section2_lamp:hover {
   transition: 0.3s all;
   background-color: grey;
-  opacity: 0.9;
+}
+.card_section2_lamp:hover p:nth-child(2) {
+  color: #FEBCBE !important;
+}
+
+.card_section2_rouage {
+  font-size: 20px;
+  border-radius: 10px;
+  height: 300px;
+}
+.card_section2_rouage:hover {
+  transition: 0.3s all;
+  background-color: grey;
+}
+.card_section2_rouage:hover p:nth-child(2) {
+  color: #80E2EB !important;
+}
+
+.card_section2_fuse {
+  font-size: 20px;
+  border-radius: 10px;
+  height: 300px;
+}
+.card_section2_fuse:hover {
+  transition: 0.3s all;
+  background-color: grey;
+}
+.card_section2_fuse:hover p:nth-child(2) {
+  color: #B0B4F3 !important;
 }
 
 .fa-lightbulb {
