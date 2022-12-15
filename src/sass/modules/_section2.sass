@@ -13,8 +13,8 @@
     justify-content: center
     margin: auto
 .card_section2
+    font-size: 20px
     border-radius: 10px
-    width: 30%
     height: 300px
     &:hover
         background-color: grey
@@ -23,3 +23,29 @@
     font-size: 60px
     color: #FEBCBE
     margin: 20px
+.fill_section2
+    width: 30px
+    height: 30px
+    color: white
+    border-radius: 5px
+    border: 1px solid white
+    background-color: transparent
+    z-index: 1
+    position: relative
+    &:hover
+        color: white !important
+        border: none !important
+    &::after
+        content: " "
+        background-color: #FEBCBE
+        z-index: -1
+        border-radius: 5px
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 3px
+        left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
