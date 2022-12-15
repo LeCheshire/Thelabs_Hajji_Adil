@@ -1,0 +1,44 @@
+.section1
+    margin-top: 100px
+    margin-bottom: 100px
+.container
+    max-width: 60%
+    div
+        div
+            p:first-of-type
+                color: #705992
+            h1
+                font-size: 70px
+            .borderimg
+                border-radius: 2%
+            button
+                width: 150px
+                height: 50px
+                margin-top: 50px
+.fillcarre_section1
+    font-size: 15px
+    width: 100px
+    height: 40px
+    border: 2px solid black
+    background-color: transparent
+    border-radius: 40px
+    position: relative
+    &:hover
+        color: white !important
+        border: none !important
+    &::after
+        content: " "
+        color: white !important
+        border: none !important
+        background-color: #EFA69B
+        border-radius: 40px
+        z-index: -1
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 6px
+        left: 6px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
