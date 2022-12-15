@@ -1,5 +1,5 @@
 .section2
-    height: 700px
+    height: 850px
     background-color: #1F1F2A
 .p_section2
     margin-top: 100px
@@ -17,13 +17,22 @@
     border-radius: 10px
     height: 300px
     &:hover
+        transition: 0.3s all
         background-color: grey
         opacity: 0.9
 .fa-lightbulb
     font-size: 60px
     color: #FEBCBE
     margin: 20px
-.fill_section2
+.fa-gear
+    font-size: 60px
+    color: #80E2EB
+    margin: 20px
+.fa-rocket
+    font-size: 60px
+    color: #B0B4F3
+    margin: 20px
+.fill_section2_lamp
     width: 30px
     height: 30px
     color: white
@@ -45,6 +54,87 @@
         height: 100%
         top: 3px
         left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
+.fill_section2_rouage
+    width: 30px
+    height: 30px
+    color: white
+    border-radius: 5px
+    border: 1px solid white
+    background-color: transparent
+    z-index: 1
+    position: relative
+    &:hover
+        color: white !important
+        border: none !important
+    &::after
+        content: " "
+        background-color: #80E2EB
+        z-index: -1
+        border-radius: 5px
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 3px
+        left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
+.fill_section2_fuse
+    width: 30px
+    height: 30px
+    color: white
+    border-radius: 5px
+    border: 1px solid white
+    background-color: transparent
+    z-index: 1
+    position: relative
+    &:hover
+        color: white !important
+        border: none !important
+    &::after
+        content: " "
+        background-color: #B0B4F3
+        z-index: -1
+        border-radius: 5px
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 3px
+        left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
+.fillcarre_section2
+    font-size: 15px
+    margin-left: 300px
+    width: 200px
+    height: 60px
+    color: white
+    border: 2px solid white
+    background-color: transparent
+    border-radius: 40px
+    z-index: 1
+    position: relative
+    &:hover
+        color: white !important
+    &::after
+        content: " "
+        color: white !important
+        border: none !important
+        background-color: #FEBCBE
+        border-radius: 40px
+        z-index: -1
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 6px
+        left: 6px
         transition: 0.2s
     &:hover::after
         top: 0px
