@@ -21405,84 +21405,103 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .bouleicone {
-    display: none !important;
+  .container {
+    max-width: 70% !important;
+    margin-right: 150px !important;
   }
-  .nav-link {
+  .container div div {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
   }
-  .fill {
-    margin-top: 10px;
-    margin-left: 350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  .container div div h1, .container div div .h1 {
+    font-size: 40px !important;
+  }
+  .container div div .borderimg {
+    width: 80%;
+    display: block !important;
   }
   .fillcarre {
-    margin-top: 10px;
-    margin-left: 320px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 140px;
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
-  .bouleicone {
-    display: none !important;
+  .section1 {
+    height: 500px;
   }
-  .nav-link {
-    font-size: 30px;
+  .container {
+    max-width: 100%;
+    height: auto;
+  }
+  .container div {
     display: flex;
-    margin-left: 160px;
-    align-items: center;
+    flex-direction: column;
   }
-  .dropdown-item {
-    font-size: 30px;
-  }
-  .fill {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 180px;
+  .container div div {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+  }
+  .container div div p {
+    font-size: 10px !important;
+  }
+  .container div div h1, .container div div .h1 {
+    font-size: 17px !important;
+  }
+  .container div div button {
+    font-size: 10px;
+    width: 100px !important;
+    height: 30px !important;
+  }
+  .container div div .borderimg {
+    width: 150px !important;
+    height: 150px;
+    display: block !important;
+    position: absolute;
+    top: 350px;
   }
   .fillcarre {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 150px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 120px;
   }
 }
 @media (min-width: 375px) and (max-width: 424px) {
-  .bouleicone {
-    display: none !important;
+  .section1 {
+    height: 500px;
   }
-  .nav-link {
-    font-size: 30px;
+  .container {
+    max-width: 100%;
+    height: auto;
+  }
+  .container div {
     display: flex;
-    margin-left: 140px;
-    align-items: center;
+    flex-direction: column;
   }
-  .dropdown-item {
-    font-size: 30px;
-  }
-  .fill {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 160px;
+  .container div div {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+  }
+  .container div div p {
+    font-size: 10px !important;
+  }
+  .container div div h1, .container div div .h1 {
+    font-size: 17px !important;
+  }
+  .container div div button {
+    font-size: 10px;
+    width: 100px !important;
+    height: 30px !important;
+  }
+  .container div div .borderimg {
+    width: 150px !important;
+    height: 150px;
+    display: block !important;
+    position: absolute;
+    top: 350px;
   }
   .fillcarre {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 130px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 110px;
   }
 }
 .section1 {
