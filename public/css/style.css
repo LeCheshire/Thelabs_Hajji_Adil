@@ -21488,7 +21488,6 @@ textarea.form-control-lg {
 .section1 {
   margin-top: 100px;
   margin-bottom: 100px;
-  height: 900px;
 }
 
 .container {
@@ -21504,7 +21503,41 @@ textarea.form-control-lg {
   border-radius: 2%;
 }
 .container div div button {
+  width: 150px;
+  height: 50px;
   margin-top: 50px;
+}
+
+.fillcarre {
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 40px;
+  position: relative;
+}
+.fillcarre:hover {
+  color: white !important;
+  border: none !important;
+}
+.fillcarre::after {
+  content: " ";
+  color: white !important;
+  border: none !important;
+  background-color: #7DE2EC;
+  border-radius: 40px;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 6px;
+  left: 6px;
+  transition: 0.2s;
+}
+.fillcarre:hover::after {
+  top: 0px;
+  left: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
