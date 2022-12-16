@@ -21844,6 +21844,36 @@ h1, .h1 {
   background-color: #E9EBFD;
 }
 
+.fill_section5_fuse {
+  width: 30px;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  z-index: 1;
+  position: relative;
+}
+.fill_section5_fuse:hover {
+  color: white !important;
+  border: none !important;
+}
+.fill_section5_fuse::after {
+  content: " ";
+  background-color: #B0B4F3;
+  z-index: -1;
+  border-radius: 5px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 3px;
+  left: 3px;
+  transition: 0.2s;
+}
+.fill_section5_fuse:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
 @font-face {
   font-family: "FontTitre";
   src: url("../../public/fonts/MuseoModerno-Italic-VariableFont_wght.ttf");

@@ -9,3 +9,28 @@ h1
     height: auto
     color: #6B7097
     background-color: #E9EBFD
+.fill_section5_fuse
+    width: 30px
+    height: 30px
+    color: black
+    border-radius: 5px
+    border: 1px solid black
+    z-index: 1
+    position: relative
+    &:hover
+        color: white !important
+        border: none !important
+    &::after
+        content: " "
+        background-color: #B0B4F3
+        z-index: -1
+        border-radius: 5px
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 3px
+        left: 3px
+        transition: 0.2s
+    &:hover::after
+        top: 0px
+        left: 0px
