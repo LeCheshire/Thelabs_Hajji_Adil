@@ -21794,6 +21794,12 @@ h1, .h1 {
   transition: 1s;
 }
 
+.section4 {
+  height: 600px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: "FontTitre";
   src: url("../../public/fonts/MuseoModerno-Italic-VariableFont_wght.ttf");
