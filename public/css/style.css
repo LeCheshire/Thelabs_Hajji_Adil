@@ -21496,8 +21496,11 @@ textarea.form-control-lg {
 }
 
 .section2 {
-  height: 850px;
+  height: 900px;
   background-color: #1F1F2A;
+}
+.section2 .container {
+  max-width: 60%;
 }
 
 .p_section2 {
@@ -21505,16 +21508,12 @@ textarea.form-control-lg {
   background-color: #B1B3F2;
 }
 
-.textgris_section2 {
-  color: #9F9F95;
+.size_section2 {
+  font-size: 18px;
 }
 
-.mxwidth_section2 {
-  max-width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+.textgris_section2 {
+  color: #9F9F95;
 }
 
 .card_section2_lamp {
@@ -21669,7 +21668,6 @@ textarea.form-control-lg {
 
 .fillcarre_section2 {
   font-size: 15px;
-  margin-left: 300px;
   width: 200px;
   height: 60px;
   color: white;
@@ -21699,6 +21697,14 @@ textarea.form-control-lg {
 .fillcarre_section2:hover::after {
   top: 0px;
   left: 0px;
+}
+
+.countsulation_section2 {
+  font-size: 15px;
+}
+
+.mt_section2 {
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
