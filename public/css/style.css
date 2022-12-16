@@ -21738,7 +21738,7 @@ h1, .h1 {
 }
 
 .section3 {
-  height: 800px;
+  height: 700px;
 }
 .section3 .container {
   max-width: 60%;
@@ -21759,10 +21759,39 @@ h1, .h1 {
   height: auto;
 }
 
-.tailleicone1 {
-  font-size: 100px;
+.tailleicone_section3 {
+  font-size: 80px;
   color: #FE9B8F;
   margin: 20px;
+}
+
+.tailletitre_section3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tailletext_section3 {
+  font-size: 12px;
+}
+
+.position {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  rotate: -45deg;
+  color: lightgrey;
+}
+
+.card_section3:hover {
+  color: white;
+  background-color: #4B4B55;
+}
+.card_section3:hover .tailleicone_section3 {
+  color: white;
+}
+.card_section3:hover .position {
+  rotate: 320deg;
+  transition: 1s;
 }
 
 @font-face {
