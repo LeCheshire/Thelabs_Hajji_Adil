@@ -21794,6 +21794,10 @@ h1, .h1 {
   transition: 1s;
 }
 
+h1, .h1 {
+  font-family: "FontTitre" !important;
+}
+
 .section4 {
   height: 600px;
   max-width: 95%;
@@ -21820,6 +21824,24 @@ h1, .h1 {
 
 .tailletext_section4 {
   color: white;
+}
+
+h1, .h1 {
+  font-family: "FontTitre" !important;
+}
+
+.section5 {
+  height: 700px;
+}
+.section5 .container {
+  max-width: 60%;
+}
+
+.p_section5 {
+  width: 147px;
+  height: auto;
+  color: #6B7097;
+  background-color: #E9EBFD;
 }
 
 @font-face {
